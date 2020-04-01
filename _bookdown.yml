@@ -3,3 +3,20 @@ delete_merged_file: true
 language:
   ui:
     chapter_name: "Chapter "
+
+rmd_files: [
+  "index.Rmd",
+  
+  "01-overview.Rmd",
+  "01-design-principles.Rmd",
+  "01-topics.Rmd",
+  "01-tech-stack.Rmd",
+  "01-community.Rmd",
+
+  "02-literature.Rmd",
+  "03-method.Rmd",
+  "04-application.Rmd",
+  "05-summary.Rmd",
+  "06-references.Rmd"
+  
+  ]
