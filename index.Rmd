@@ -10,10 +10,6 @@ link-citations: yes
 description: "Data Science in a Box contains the materials required to teach (or learn from) the course described above, all of which are freely-available and open-source."
 ---
 
-```{r load-packages, include=FALSE}
-library(knitr)
-```
-
 # Welcome {-}
 
 <img src="dsbox.png" width="240" height="180" alt="Cover image" align="right" style="margin: 0 1em 0 1em" />

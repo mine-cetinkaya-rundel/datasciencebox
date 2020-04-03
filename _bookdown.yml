@@ -20,3 +20,6 @@ rmd_files: [
   "06-references.Rmd"
   
   ]
+
+new_session: yes
+before_chapter_script: "_common.R"
