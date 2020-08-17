@@ -1,4 +1,4 @@
-# Design principles {#design}
+# Design principles {#design-principles}
 
 This course is designed with five principles in mind:
 
@@ -15,7 +15,7 @@ more likely to make you want to learn to bake a cake? I'm guessing the
 answer is the image on the left: the cake.
 
 ```{r cake-ingredients, fig.align="center", echo=FALSE}
-include_graphics(path = "images/cake-ingredients.png")
+include_graphics(path = "images/design-cake-ingredients.png")
 ```
 
 The teaching philosophy of this course builds on this same idea. We first show 
@@ -25,7 +25,7 @@ we start data visualization. And not just a toy example, but a complex,
 multivariate data visualization. Of course, we don't want students feeling like...
 
 ```{r owl, fig.align="center", echo=FALSE}
-include_graphics(path = "images/owl.jpg")
+include_graphics(path = "images/design-owl.jpg")
 ```
 
 The course goes starts out slow and emphasizes iteration. Students are initially 

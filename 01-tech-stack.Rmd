@@ -1,4 +1,4 @@
-# Tech stack {#techstack}
+# Tech stack {#tech-stack}
 
 This course teaches computing and statistics to undergraduates with no background 
 in either. Managing such a course with students from varied backgrounds doing 

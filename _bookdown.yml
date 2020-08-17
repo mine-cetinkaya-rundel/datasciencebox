@@ -12,13 +12,19 @@ rmd_files: [
   "01-topics.Rmd",
   "01-tech-stack.Rmd",
   "01-community.Rmd",
-
-  "02-literature.Rmd",
-  "03-method.Rmd",
-  "04-application.Rmd",
-  "05-summary.Rmd",
-  "06-references.Rmd"
   
+  "02-hello-world.Rmd",
+  "02-exploring-data.Rmd",
+  "02-making-rigorous-conclusions.Rmd",
+  "02-looking-forward.Rmd",
+
+  "03-access-r.Rmd",
+  "03-version-control.Rmd",
+  "03-discussion.Rmd",
+  "03-sharing.Rmd",
+  "03-alternative-setups.Rmd",
+  
+  "04-pedagogy.Rmd"
   ]
 
 new_session: yes
