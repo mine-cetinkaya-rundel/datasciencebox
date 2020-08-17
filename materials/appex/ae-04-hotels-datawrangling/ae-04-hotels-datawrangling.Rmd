@@ -1,5 +1,6 @@
 ---
 title: "Hotel bookings"
+author: "Mine Çetinkaya-Rundel"
 date: "`r Sys.Date()`"
 output: 
   html_document: 
