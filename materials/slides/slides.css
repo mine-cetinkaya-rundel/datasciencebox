@@ -263,3 +263,69 @@ div.my-footer a {
 }
 
 
+/* Handwriting */
+
+.hand{
+  font-family: 'Gochi Hand', cursive;
+  font-size: 125%;
+}
+.hand-blue{
+  font-family: 'Gochi Hand', cursive;
+  color: #A7D5E8;
+  font-size: 125%;
+}
+.hand-pink{
+  font-family: 'Gochi Hand', cursive;
+  color: #F26BAA;
+  font-size: 125%;
+}
+
+/* Custom fonts */
+
+.huge-blue {
+ font-family: 'Montserrat', sans-serif;
+ font-size: 400%;
+ font-weight: bold;
+ color: #A7D5E8;
+}
+
+.huge-pink {
+ font-family: 'Montserrat', sans-serif;
+ font-size: 400%;
+ font-weight: bold;
+ color: #F26BAA;
+}
+
+
+/* Custom boxes */
+.discussion, .your-turn, .tip {
+  padding: 5px 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.discussion{
+  border-left: solid 5px #A7D5E8;
+  background-color: #E7E7E7;
+}
+.your-turn {
+  border-left: solid 5px #FFD748;
+  background-color: #E7E7E7;
+}
+.your-turn:before{
+  content: "Your turn!";
+  font-size: 150%;
+  font-weight: bold;
+  color: #FFD748;
+  margin-bottom: 10px;
+}
+.tip {
+  border-right: solid 5px #F26BAA;
+  background-color: #E7E7E7;
+}
+.tip:before{
+  content: "Tip:";
+  font-size: 120%;
+  font-weight: bold;
+  color: #F26BAA;
+  margin-bottom: 5px;
+}
