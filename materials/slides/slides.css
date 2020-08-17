@@ -103,6 +103,7 @@ a, a > code {
 
 
 /* Custom boxes */
+
 .question {
   border-left: solid 5px #1E5C65;
   background-color: #1E5C6530;
@@ -112,6 +113,7 @@ a, a > code {
   font-size: 90%;
   color: #1E5C65;
 }
+
 .alert {
   border-right: solid 5px #A7D5E8;
   background-color: #A7D5E830;
@@ -119,6 +121,7 @@ a, a > code {
   margin-top: 12px;
   margin-bottom: 12px;
 }
+
 .instructions {
   border-left: solid 5px #FFD748;
   background-color: #FFD74850;
@@ -131,6 +134,41 @@ a, a > code {
   color: #FFD748;
   display: inline-block; 
   margin-left: -1.5em
+}
+
+.discussion, .your-turn, .tip {
+  padding: 5px 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.discussion{
+  border-left: solid 5px #A7D5E8;
+  background-color: #E7E7E7;
+}
+
+.your-turn {
+  border-left: solid 5px #FFD748;
+  background-color: #E7E7E7;
+}
+.your-turn:before{
+  content: "Your turn!";
+  font-size: 150%;
+  font-weight: bold;
+  color: #FFD748;
+  margin-bottom: 10px;
+}
+
+.tip {
+  border-right: solid 5px #F26BAA;
+  background-color: #E7E7E7;
+}
+.tip:before{
+  content: "Tip:";
+  font-size: 120%;
+  font-weight: bold;
+  color: #F26BAA;
+  margin-bottom: 5px;
 }
 
 
@@ -294,38 +332,4 @@ div.my-footer a {
  font-size: 400%;
  font-weight: bold;
  color: #F26BAA;
-}
-
-
-/* Custom boxes */
-.discussion, .your-turn, .tip {
-  padding: 5px 5px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-.discussion{
-  border-left: solid 5px #A7D5E8;
-  background-color: #E7E7E7;
-}
-.your-turn {
-  border-left: solid 5px #FFD748;
-  background-color: #E7E7E7;
-}
-.your-turn:before{
-  content: "Your turn!";
-  font-size: 150%;
-  font-weight: bold;
-  color: #FFD748;
-  margin-bottom: 10px;
-}
-.tip {
-  border-right: solid 5px #F26BAA;
-  background-color: #E7E7E7;
-}
-.tip:before{
-  content: "Tip:";
-  font-size: 120%;
-  font-weight: bold;
-  color: #F26BAA;
-  margin-bottom: 5px;
 }
