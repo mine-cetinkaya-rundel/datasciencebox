@@ -218,8 +218,8 @@ The Bechdel test asks whether a work of fiction features at least two women who 
 
 <br>
 
-- Go to RStudio Cloud ([rstd.io/dsbox-cloud](http://rstd.io/dsbox-cloud)) and make a copy of the application exercise project and launch it.
-- Open and knit the R Markdown document.
+- Go to RStudio Cloud ([rstd.io/dsbox-cloud](http://rstd.io/dsbox-cloud)) and start `AE 02 - Bechdel`. 
+- Open and knit the R Markdown document and follow along with the instructions. 
 
 ---
 
