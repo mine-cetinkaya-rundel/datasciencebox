@@ -149,7 +149,7 @@ a, a > code {
 
 .your-turn {
   border-left: solid 5px #FFD748;
-  background-color: #E7E7E7;
+  background-color: #fff9e5;
 }
 .your-turn:before{
   content: "Your turn!";
@@ -157,6 +157,13 @@ a, a > code {
   font-weight: bold;
   color: #FFD748;
   margin-bottom: 10px;
+}
+.your-turn ul li:before {
+  content: "✚"; 
+  color: #FFD748; 
+  display: inline-block; 
+  width: 1.5em;
+  margin-left: -1.5em
 }
 
 .tip {
