@@ -166,8 +166,9 @@ fs::dir_ls("data")
 ```
 
 ```
-## data/df-na.csv           data/df.csv              data/edi-airbnb.csv      data/favourite-food.xlsx 
-## data/nobel.csv           data/sales               data/sales.xlsx
+## data/df-na.csv           data/df.csv              data/edi-airbnb.csv      
+## data/favourite-food.xlsx data/nobel.csv           data/sales               
+## data/sales.xlsx
 ```
 
 ---
@@ -201,9 +202,10 @@ names(edi_airbnb)
 ```
 
 ```
-##  [1] "ID"                   "Price"                "neighbourhood"        "accommodates"        
-##  [5] "Number of bathrooms"  "Number of Bedrooms"   "n beds"               "Review Scores Rating"
-##  [9] "Number of reviews"    "listing_url"
+##  [1] "ID"                   "Price"                "neighbourhood"       
+##  [4] "accommodates"         "Number of bathrooms"  "Number of Bedrooms"  
+##  [7] "n beds"               "Review Scores Rating" "Number of reviews"   
+## [10] "listing_url"
 ```
 
 --
@@ -256,9 +258,10 @@ names(edi_airbnb_col_names)
 ```
 
 ```
-##  [1] "id"                   "price"                "neighbourhood"        "accommodates"        
-##  [5] "bathroom"             "bedroom"              "bed"                  "review_scores_rating"
-##  [9] "n_reviews"            "url"
+##  [1] "id"                   "price"                "neighbourhood"       
+##  [4] "accommodates"         "bathroom"             "bedroom"             
+##  [7] "bed"                  "review_scores_rating" "n_reviews"           
+## [10] "url"
 ```
 ]
 
@@ -275,9 +278,10 @@ names(edi_airbnb_cleaned_names)
 ```
 
 ```
-##  [1] "id"                   "price"                "neighbourhood"        "accommodates"        
-##  [5] "number_of_bathrooms"  "number_of_bedrooms"   "n_beds"               "review_scores_rating"
-##  [9] "number_of_reviews"    "listing_url"
+##  [1] "id"                   "price"                "neighbourhood"       
+##  [4] "accommodates"         "number_of_bathrooms"  "number_of_bedrooms"  
+##  [7] "n_beds"               "review_scores_rating" "number_of_reviews"   
+## [10] "listing_url"
 ```
 
 ---
@@ -581,7 +585,7 @@ class: middle
 <script>var slideshow = remark.create({
 "ratio": "16:9",
 "highlightLines": true,
-"highlightStyle": "solarized-dark",
+"highlightStyle": "solarized-light",
 "countIncrementalSlides": false
 });
 if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {

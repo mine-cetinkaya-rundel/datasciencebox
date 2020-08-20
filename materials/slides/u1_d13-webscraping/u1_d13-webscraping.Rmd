@@ -8,7 +8,7 @@ output:
     nature:
       ratio: "16:9"
       highlightLines: true
-      highlightStyle: solarized-dark
+      highlightStyle: solarized-light
       countIncrementalSlides: false
 ---
 
@@ -314,7 +314,7 @@ Compare the display of information at [gumtree.com/cars-vans-motorbikes/edinburg
 
 ---
 
--your-turn[
+.your-turn[
 - [RStudio Cloud](http://rstd.io/dsbox-cloud) > `AE 08 - IMDB + Webscraping`.
 - Open `02-imdb-tvshows.R`.
 - Scrape the names, scores, and years of most popular TV shows on IMDB:

@@ -8,7 +8,7 @@ output:
     nature:
       ratio: "16:9"
       highlightLines: true
-      highlightStyle: solarized-dark
+      highlightStyle: solarized-light
       countIncrementalSlides: false
 ---
 

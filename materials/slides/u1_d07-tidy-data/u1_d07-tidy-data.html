@@ -75,13 +75,14 @@ staff
 
 ```
 ## # A tibble: 5 x 12
-##   faculty_type                       `1975` `1989` `1993` `1995` `1999` `2001` `2003` `2005` `2007` `2009` `2011`
-##   &lt;chr&gt;                               &lt;dbl&gt;  &lt;dbl&gt;  &lt;dbl&gt;  &lt;dbl&gt;  &lt;dbl&gt;  &lt;dbl&gt;  &lt;dbl&gt;  &lt;dbl&gt;  &lt;dbl&gt;  &lt;dbl&gt;  &lt;dbl&gt;
-## 1 Full-Time Tenured Faculty            29     27.6   25     24.8   21.8   20.3   19.3   17.8   17.2   16.8   16.7
-## 2 Full-Time Tenure-Track Faculty       16.1   11.4   10.2    9.6    8.9    9.2    8.8    8.2    8      7.6    7.4
-## 3 Full-Time Non-Tenure-Track Faculty   10.3   14.1   13.6   13.6   15.2   15.5   15     14.8   14.9   15.1   15.4
-## 4 Part-Time Faculty                    24     30.4   33.1   33.2   35.5   36     37     39.3   40.5   41.1   41.3
-## 5 Graduate Student Employees           20.5   16.5   18.1   18.8   18.7   19     20     19.9   19.5   19.4   19.3
+##   faculty_type `1975` `1989` `1993` `1995` `1999` `2001` `2003` `2005` `2007` `2009`
+##   &lt;chr&gt;         &lt;dbl&gt;  &lt;dbl&gt;  &lt;dbl&gt;  &lt;dbl&gt;  &lt;dbl&gt;  &lt;dbl&gt;  &lt;dbl&gt;  &lt;dbl&gt;  &lt;dbl&gt;  &lt;dbl&gt;
+## 1 Full-Time T…   29     27.6   25     24.8   21.8   20.3   19.3   17.8   17.2   16.8
+## 2 Full-Time T…   16.1   11.4   10.2    9.6    8.9    9.2    8.8    8.2    8      7.6
+## 3 Full-Time N…   10.3   14.1   13.6   13.6   15.2   15.5   15     14.8   14.9   15.1
+## 4 Part-Time F…   24     30.4   33.1   33.2   35.5   36     37     39.3   40.5   41.1
+## 5 Graduate St…   20.5   16.5   18.1   18.8   18.7   19     20     19.9   19.5   19.4
+## # … with 1 more variable: `2011` &lt;dbl&gt;
 ```
 
 ---
@@ -415,20 +416,21 @@ rel_inc &lt;- read_excel("data/relig-income.xlsx") # directly from Excel!
 
 ```
 ## # A tibble: 12 x 6
-##    `Religious tradition`      `Less than $30,00… `$30,000-$49,999` `$50,000-$99,99… `$100,000 or mo… `Sample Size`
-##    &lt;chr&gt;                                   &lt;dbl&gt;             &lt;dbl&gt;            &lt;dbl&gt;            &lt;dbl&gt;         &lt;dbl&gt;
-##  1 "Buddhist"                              0.36               0.18            0.32             0.13            233
-##  2 "Catholic"                              0.36               0.19            0.26             0.19           6137
-##  3 "Evangelical Protestant"                0.35               0.22            0.28             0.14           7462
-##  4 "Hindu"                                 0.17               0.13            0.34             0.36            172
-##  5 "Historically Black Prote…              0.53               0.22            0.17             0.08           1704
-##  6 "Jehovah's Witness"                     0.48               0.25            0.22             0.04            208
-##  7 "Jewish"                                0.16               0.15            0.24             0.44            708
-##  8 "Mainline Protestant"                   0.290              0.2             0.28             0.23           5208
-##  9 "Mormon"                                0.27               0.2             0.33             0.2             594
-## 10 "Muslim"                                0.34               0.17            0.290            0.2             205
-## 11 "Orthodox Christian"                    0.18               0.17            0.36             0.290           155
-## 12 "Unaffiliated (religious …              0.33               0.2             0.26             0.21           6790
+##    `Religious trad… `Less than $30,… `$30,000-$49,99… `$50,000-$99,99… `$100,000 or mo…
+##    &lt;chr&gt;                       &lt;dbl&gt;            &lt;dbl&gt;            &lt;dbl&gt;            &lt;dbl&gt;
+##  1 "Buddhist"                  0.36              0.18            0.32             0.13 
+##  2 "Catholic"                  0.36              0.19            0.26             0.19 
+##  3 "Evangelical Pr…            0.35              0.22            0.28             0.14 
+##  4 "Hindu"                     0.17              0.13            0.34             0.36 
+##  5 "Historically B…            0.53              0.22            0.17             0.08 
+##  6 "Jehovah's Witn…            0.48              0.25            0.22             0.04 
+##  7 "Jewish"                    0.16              0.15            0.24             0.44 
+##  8 "Mainline Prote…            0.290             0.2             0.28             0.23 
+##  9 "Mormon"                    0.27              0.2             0.33             0.2  
+## 10 "Muslim"                    0.34              0.17            0.290            0.2  
+## 11 "Orthodox Chris…            0.18              0.17            0.36             0.290
+## 12 "Unaffiliated (…            0.33              0.2             0.26             0.21 
+## # … with 1 more variable: `Sample Size` &lt;dbl&gt;
 ```
 ]
 
@@ -448,20 +450,20 @@ rel_inc %&gt;%
 
 ```
 ## # A tibble: 12 x 6
-##    religion                         `Less than $30,000` `$30,000-$49,999` `$50,000-$99,99… `$100,000 or mor…     n
-##    &lt;chr&gt;                                          &lt;dbl&gt;             &lt;dbl&gt;            &lt;dbl&gt;             &lt;dbl&gt; &lt;dbl&gt;
-##  1 "Buddhist"                                     0.36               0.18            0.32              0.13    233
-##  2 "Catholic"                                     0.36               0.19            0.26              0.19   6137
-##  3 "Evangelical Protestant"                       0.35               0.22            0.28              0.14   7462
-##  4 "Hindu"                                        0.17               0.13            0.34              0.36    172
-##  5 "Historically Black Protestant"                0.53               0.22            0.17              0.08   1704
-##  6 "Jehovah's Witness"                            0.48               0.25            0.22              0.04    208
-##  7 "Jewish"                                       0.16               0.15            0.24              0.44    708
-##  8 "Mainline Protestant"                          0.290              0.2             0.28              0.23   5208
-##  9 "Mormon"                                       0.27               0.2             0.33              0.2     594
-## 10 "Muslim"                                       0.34               0.17            0.290             0.2     205
-## 11 "Orthodox Christian"                           0.18               0.17            0.36              0.290   155
-## 12 "Unaffiliated (religious \"none…               0.33               0.2             0.26              0.21   6790
+##    religion     `Less than $30,0… `$30,000-$49,99… `$50,000-$99,99… `$100,000 or mo…     n
+##    &lt;chr&gt;                    &lt;dbl&gt;            &lt;dbl&gt;            &lt;dbl&gt;            &lt;dbl&gt; &lt;dbl&gt;
+##  1 "Buddhist"               0.36              0.18            0.32             0.13    233
+##  2 "Catholic"               0.36              0.19            0.26             0.19   6137
+##  3 "Evangelica…             0.35              0.22            0.28             0.14   7462
+##  4 "Hindu"                  0.17              0.13            0.34             0.36    172
+##  5 "Historical…             0.53              0.22            0.17             0.08   1704
+##  6 "Jehovah's …             0.48              0.25            0.22             0.04    208
+##  7 "Jewish"                 0.16              0.15            0.24             0.44    708
+##  8 "Mainline P…             0.290             0.2             0.28             0.23   5208
+##  9 "Mormon"                 0.27              0.2             0.33             0.2     594
+## 10 "Muslim"                 0.34              0.17            0.290            0.2     205
+## 11 "Orthodox C…             0.18              0.17            0.36             0.290   155
+## 12 "Unaffiliat…             0.33              0.2             0.26             0.21   6790
 ```
 ]
 
@@ -690,7 +692,7 @@ ggplot(rel_inc_long, aes(y = fct_rev(religion), x = frequency, fill = income)) +
 <script>var slideshow = remark.create({
 "ratio": "16:9",
 "highlightLines": true,
-"highlightStyle": "solarized-dark",
+"highlightStyle": "solarized-light",
 "countIncrementalSlides": false
 });
 if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
