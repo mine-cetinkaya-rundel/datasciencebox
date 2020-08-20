@@ -190,7 +190,7 @@ blockquote {
 ul {
   list-style: none;
 }
-ul li::before {
+ul li:before {
   content: "✚"; 
   color: #A7D5E8; 
   display: inline-block; 
