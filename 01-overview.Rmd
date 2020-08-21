@@ -65,14 +65,14 @@ be covered more quickly to make room for more content at the end of the course.
 
 **Student facing materials:**
 
-- slides: 25 slide decks, each to be covered roughly in a 75 minute class 
+- slides: 30 slide decks, each to be covered roughly in a 75 minute class 
 session
-- assignments: 6 homework assignments
-- labs: 10 guided hands on exercises for students requiring minimal 
-introduction from the instructor
+- application exercises: 10 application exercises
+- assignments: 8 homework assignments
+- labs: 12 guided hands on exercises for students requiring minimal introduction from the instructor
 - exams: 2 sample take-home exams and keys
 - project: Final project assignment
-- tutorials: Interactive learning exercises built with **learnr** (WIP)
+- tutorials: 6 interactive learnr tutorials built
 
 **Educator facing materials:**
 
@@ -82,8 +82,8 @@ IDE and how to structure your course using each option
     - Git/GitHub: How to use Git and GitHub as the learning management system for 
 your course as well as a collaborative platform for your students and how to use 
 GitHub Classroom and **ghclass** for setting up your course
-    - Creating **learnr** modules (coming soon)
-    - Using **blogdown** to create your course website (coming soon)
+    - Creating **learnr** modules
+    - Using **blogdown** to create your course website
 - Pedagogical tips
 
 ## Why R?
@@ -150,3 +150,9 @@ a prerequisite for getting started. We have found that teaching personal setup
 is best done progressively throughout a semester, usually via one-on-one 
 interactions during office hours or after class. Our goal is that all students 
 will be able to continue using R in any setting.
+
+## Learn more
+
+If you would like to learn more about the design philosophy behind the course as well as implementation details, we recommend the following paper that is freely available online. 
+
+> Mine Çetinkaya-Rundel & Victoria Ellison (In press), A fresh look at introductory data science, *Journal of Statistics Education*. [doi.org/10.1080/10691898.2020.1804497](https://doi.org/10.1080/10691898.2020.1804497).

@@ -2,8 +2,6 @@
 
 In this section we describe alternative setups for your course.
 
-## RStudio (without RStudio Cloud)
-
 In a course at this level students should access the RStudio IDE through a 
 centralized RStudio server instance, which allows us to provide students with 
 uniform computing environments. 
@@ -18,7 +16,7 @@ continue using R even if they no longer have access to departmental resources.
 If you prefer to not use RStudio Cloud, you might consider one of the following 
 approaches.
 
-### Centralized RStudio server
+## Centralized RStudio server
 
 One approach that might work particularly well for higher level courses that 
 require a shared infrastructure and higher end computational resources is 
@@ -54,7 +52,7 @@ assignments where students need to process a dataset that is on the order of
 several hundred gigabytes in size, which would not be possible if they were 
 required to use their own system.
 
-### Dockerized RStudio server
+## Dockerized RStudio server
 
 A second approach to running RStudio server involves the construction and 
 hosting of a farm of individualized Docker container instances. A sketch of the 
@@ -103,6 +101,10 @@ partner with their departmental and/or university IT professionals. Additionally
 building these partnerships can lead to collaborations that benefit the entire 
 university.
 
-## Course management and collaboration (without GitHub)
+## Learn more
 
-and using RStudio Cloud only...
+If you would like to learn more about computing infrastructure for statistics and data science courses, we recommend the following paper. 
+
+> Çetinkaya-Rundel, M., & Rundel, C. (2018). Infrastructure and tools for teaching computing throughout the statistical curriculum. *The American Statistician*, 72(1), 58-65. [doi.org/10.1080/00031305.2017.1397549](https://doi.org/10.1080/00031305.2017.1397549)
+
+A freely available version of the paper can be found [here](https://peerj.com/preprints/3181/).

@@ -221,13 +221,6 @@ three members and five projects. Once you hit this limit RStudio Cloud will
 prompt you to submit a request to the RStudio Cloud team for more capacity. 
 Rest assured that this request will be approved.
 
-## RStudio Cloud is in beta!
-
-RStudio Cloud in alpha. The development team is still adding important features 
-and improving performance, reliability and availability. If you have any 
-questions or feedback, you can reach out on the 
-[RStudio Community](https://community.rstudio.com/c/rstudio-cloud).
-
 ## Learn more
 
 To see this all in action and learn more, watch the following RStudio Cloud webinars:
